@@ -57,7 +57,7 @@ namespace CatalogAPI.Controllers
             }
         }
 
-        [Authorize(Roles = "admin")]
+       // [Authorize(Roles = "admin")]
         [HttpPost("", Name = "AddProduct")]
         [ProducesResponseType((int)HttpStatusCode.Created)]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
